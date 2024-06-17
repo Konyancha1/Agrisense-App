@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import logo from '../../assets/images/agrisense - Logo.png';
 
 const Navbar: React.FC = () => {
@@ -15,15 +15,15 @@ const Navbar: React.FC = () => {
       <div className="flex items-center justify-between mx-4 lg:mx-24">
         <img src={logo} alt="Agrisense Logo" className="h-auto w-48" />
         <div className="hidden md:flex items-center space-x-8 mx-auto">
-          <a href="/" className="text-gray-700 hover:text-green-600">
+          <Link to="/" className="text-gray-700 hover:text-green-600">
             Home
-          </a>
-          <a href="/about" className="text-gray-700 hover:text-green-600">
+          </Link>
+          <Link to="/about" className="text-gray-700 hover:text-green-600">
             About Us
-          </a>
-          <a href="/solution" className="text-gray-700 hover:text-green-600">
+          </Link>
+          <Link to="/solution" className="text-gray-700 hover:text-green-600">
             Our Solution
-          </a>
+          </Link>
         </div>
         <div className="hidden md:flex items-center space-x-4">
           <button
@@ -63,15 +63,15 @@ const Navbar: React.FC = () => {
       </div>
       {isMenuOpen && (
         <div className="md:hidden flex flex-col items-center mt-4 space-y-2">
-          <a href="/" className="text-gray-700 hover:text-green-600">
+          <Link to="/" className="text-gray-700 hover:text-green-600">
             Home
-          </a>
-          <a href="/solution" className="text-gray-700 hover:text-green-600">
-            Solutions
-          </a>
-          <a href="/about" className="text-gray-700 hover:text-green-600">
-            About
-          </a>
+          </Link>
+          <Link to="/about" className="text-gray-700 hover:text-green-600">
+            About Us
+          </Link>
+          <Link to="/solution" className="text-gray-700 hover:text-green-600">
+            Our Solution
+          </Link>
           <button
             className="bg-green-600 p-3 text-sm text-white font-bold rounded-lg cursor-pointer transition duration-300 hover:bg-green-700 w-[50%] text-center"
             onClick={() => navigate('/auth/farmer')}
