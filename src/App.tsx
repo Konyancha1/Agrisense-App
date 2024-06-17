@@ -17,8 +17,8 @@ const AppContent: React.FC = () => {
       {!isAuthRoute && <Navbar />}
       <Routes>
         <Route path="/" Component={HomePage} />
-        <Route path="/about-us" Component={AboutPage} />
-        <Route path="/solutions" Component={SolutionsPage} />
+        <Route path="/about" Component={AboutPage} />
+        <Route path="/solution" Component={SolutionsPage} />
         <Route path='/auth/farmer' Component={FarmerPage}/>
         <Route path='/auth/cooperative' Component={CooperativePage}/>
       </Routes>

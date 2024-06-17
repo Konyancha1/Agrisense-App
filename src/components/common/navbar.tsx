@@ -18,10 +18,10 @@ const Navbar: React.FC = () => {
           <a href="/" className="text-gray-700 hover:text-green-600">
             Home
           </a>
-          <a href="/about-us" className="text-gray-700 hover:text-green-600">
+          <a href="/about" className="text-gray-700 hover:text-green-600">
             About Us
           </a>
-          <a href="/solutions" className="text-gray-700 hover:text-green-600">
+          <a href="/solution" className="text-gray-700 hover:text-green-600">
             Our Solution
           </a>
         </div>
@@ -66,10 +66,10 @@ const Navbar: React.FC = () => {
           <a href="/" className="text-gray-700 hover:text-green-600">
             Home
           </a>
-          <a href="/solutions" className="text-gray-700 hover:text-green-600">
+          <a href="/solution" className="text-gray-700 hover:text-green-600">
             Solutions
           </a>
-          <a href="/about-us" className="text-gray-700 hover:text-green-600">
+          <a href="/about" className="text-gray-700 hover:text-green-600">
             About
           </a>
           <button
