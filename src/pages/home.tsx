@@ -39,9 +39,9 @@ const HomePage: React.FC = () => {
       
       <div className="mb-10 p-8 rounded-lg shadow-lg text-center bg-gray-50 mx-auto lg:w-[50%] md:w-[60%] w-[70%]">
         <p className="text-gray-700 md:text-lg text-sm font-semibold">Trusted by</p>
-        <div className="flex justify-center mt-2">
+{/*         <div className="flex justify-center mt-2">
           <img src={Rwacof} alt="RwaCof_Logo" className="h-12 mx-2" />
-        </div>
+        </div> */}
       </div>
 
       <div className="flex flex-col items-center bg-gray-100 p-10 mb-20">
