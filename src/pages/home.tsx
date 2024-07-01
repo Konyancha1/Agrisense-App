@@ -51,7 +51,7 @@ const HomePage: React.FC = () => {
           <div className="grid grid-cols-1 md:flex md:flex-col md:mx-0 mx-auto items-center lg:items-start w-auto space-y-4 lg:mr-10">
             <Card title="Early and accurate detection" text="Reduces coffee yield and quality losses by 70% in increase by 45% each season," />
             <Card title="Advanced Analytics" text="Get comprehensive insights into farm health, including soil moisture, pest activity, and crop conditions." />
-            <Card title="Digital Traceability" text="Ensures you stringent traceability and sustainability measures in coffee exports." />
+            <Card title="Digital Traceability" text="Ensures you adhere to stringent EU traceability and sustainability measures in coffee exports." />
             <Card title="AI Agronomist" text="Fill the knowledge gap among farmers through tailored advance in local language." />
             <Card title="Weather Alert" text="Beat the unpredictable weather patterns that can lead to significant crop losses." />
             <Card title="Reduce Chemical Use" text="Precise disease management reducing the need for chemical interventions and improve soil and plant health." />
