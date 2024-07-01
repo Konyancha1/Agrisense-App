@@ -1,5 +1,5 @@
 import React from 'react';
-import Rwacof from '../assets/images/rwacof-logo.png';
+// import Rwacof from '../assets/images/rwacof-logo.png';
 import icon from '../assets/images/icon1.png';
 import image1 from '../assets/images/Group-1707477770-2.png.png';
 import image2 from '../assets/images/Group2.png'
