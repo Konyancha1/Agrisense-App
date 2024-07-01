@@ -49,10 +49,12 @@ const HomePage: React.FC = () => {
         <div className="font-bold text-xl font-sans text-center mt-4">We are Coffee Intelligence.</div>
         <div className="flex flex-col lg:flex-row items-center justify-center mt-10 mb-10 w-full">
           <div className="grid grid-cols-1 md:flex md:flex-col md:mx-0 mx-auto items-center lg:items-start w-auto space-y-4 lg:mr-10">
-            <Card title="Card 1" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
-            <Card title="Card 2" text="Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
-            <Card title="Card 3" text="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris." />
-            <Card title="Card 4" text="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore." />
+            <Card title="Early and accurate detection" text="Reduces coffee yield and quality losses by 70% in increase by 45% each season," />
+            <Card title="Advanced Analytics" text="Get comprehensive insights into farm health, including soil moisture, pest activity, and crop conditions." />
+            <Card title="Digital Traceability" text="Ensures you stringent traceability and sustainability measures in coffee exports." />
+            <Card title="AI Agronomist" text="Fill the knowledge gap among farmers through tailored advance in local language." />
+            <Card title="Weather Alert" text="Beat the unpredictable weather patterns that can lead to significant crop losses." />
+            <Card title="Reduce Chemical Use" text="Precise disease management reducing the need for chemical interventions and improve soil and plant health." />
           </div>
           <img src={image1} alt="Image" className="h-64 md:h-72 mt-10 lg:mt-0" />
         </div>
@@ -61,9 +63,9 @@ const HomePage: React.FC = () => {
       <div className="flex flex-col items-center justify-center mb-20 w-full">
         <div className="font-bold text-2xl mb-6">The AgriSense Advantage</div>
         <div className="flex flex-col lg:flex-row justify-center items-center w-[60%] lg:w-auto space-y-4 lg:space-y-0 lg:space-x-4">
-          <AdvantageCard icon={icon} title="Advantage 1" text="Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
-          <AdvantageCard icon={icon} title="Advantage 2" text="Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
-          <AdvantageCard icon={icon} title="Advantage 3" text="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris." />
+          <AdvantageCard icon={icon} title="Improve your supply operations" text="When agriculture becomes demand-led, standardization, and traceability become vital to ensure the quality and recal ability of the end product. Ensure direct supply agreements with farmers." />
+          <AdvantageCard icon={icon} title="Boost your revenue" text="Higher yields and reduced farm input applications translate to better ROI and reduced cost of production. Knowing precisely where troubled areas are means targeted applications can be enough. " />
+          <AdvantageCard icon={icon} title="Reach sustainability goals" text="Reducing your carbon footprint and targeted chemical applications not only saves money, it brings growers closer to reaching sustainability goals. " />
         </div>
       </div>
 
@@ -75,15 +77,15 @@ const HomePage: React.FC = () => {
         <div className="hidden md:flex md:flex-col items-center w-full">
           <div className="flex flex-col md:flex-row items-center justify-center w-full">
             <div className="flex flex-col items-center lg:items-end lg:w-1/3 space-y-4 mb-4 lg:mb-0">
-              <ImageCard title="" text="Lorem ipsum" icon={icon} />
-              <ImageCard title="" text="Dolor sit amet" icon={icon} />
-              <ImageCard title="" text="Consectetur" icon={icon} />
+              <ImageCard title="" text="Early identification of coffee diseases with specific recommendations for intervention." icon={icon} />
+              <ImageCard title="" text="Insights to reduce operational costs." icon={icon} />
+              <ImageCard title="" text="Critical insights for sustainable farming" icon={icon} />
             </div>
             <img src={image2} alt="Centered Image" className="h-72 mx-auto lg:mx-10 mb-4 lg:mb-0" />
             <div className="flex flex-col items-start lg:w-1/3 space-y-4">
-              <ImageCard title="" text="Adipiscing elit" icon={icon} />
-              <ImageCard title="" text="Sed do eiusmod" icon={icon} />
-              <ImageCard title="" text="Tempor incididunt" icon={icon} />
+              <ImageCard title="" text="Data-driven recommendations for efficient use of water, fertilizers, and other inputs." icon={icon} />
+              <ImageCard title="" text="Accurate forecasting of coffee yield based on current and historical farm data" icon={icon} />
+              <ImageCard title="" text="Track coffee from farm to consumer, ensuring traceability." icon={icon} />
             </div>
           </div>
         </div>
@@ -91,12 +93,12 @@ const HomePage: React.FC = () => {
         {/* Smaller screens */}
         <div className='items-center w-full md:hidden'>
           <div className='grid grid-cols-2'>
-            <ImageCard title="" text="Lorem ipsum" icon={icon} />
-            <ImageCard title="" text="Dolor sit amet" icon={icon} />
-            <ImageCard title="" text="Consectetur" icon={icon} />
-            <ImageCard title="" text="Adipiscing elit" icon={icon} />
-            <ImageCard title="" text="Sed do eiusmod" icon={icon} />
-            <ImageCard title="" text="Tempor incididunt" icon={icon} />
+            <ImageCard title="" text="Early identification of coffee diseases with specific recommendations for intervention." icon={icon} />
+            <ImageCard title="" text="Insights to reduce operational costs." icon={icon} />
+            <ImageCard title="" text="Critical insights for sustainable farming" icon={icon} />
+            <ImageCard title="" text="Data-driven recommendations for efficient use of water, fertilizers, and other inputs." icon={icon} />
+            <ImageCard title="" text="Accurate forecasting of coffee yield based on current and historical farm data" icon={icon} />
+            <ImageCard title="" text="Track coffee from farm to consumer, ensuring traceability." icon={icon} />
           </div>
           <img src={image2} alt="Centered Image" className="h-72 mx-auto mb-4" />
         </div>
