@@ -56,7 +56,7 @@ const HomePage: React.FC = () => {
             <Card title="Weather Alert" text="Beat the unpredictable weather patterns that can lead to significant crop losses." />
             <Card title="Reduce Chemical Use" text="Precise disease management reducing the need for chemical interventions and improve soil and plant health." />
           </div>
-          <img src={image1} alt="Image" className="h-64 md:h-72 mt-10 lg:mt-0" />
+          <img src={image1} alt="Image" className="h-64 md:h-84 mt-10 lg:mt-0" />
         </div>
       </div>
 
