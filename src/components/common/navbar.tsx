@@ -24,6 +24,9 @@ const Navbar: React.FC = () => {
           <Link to="/solution" className="text-gray-700 hover:text-green-600">
             Our Solution
           </Link>
+          {/* <Link to="/demo" className="text-gray-700 hover:text-green-600">
+            Product Demo
+          </Link> */}
         </div>
         <div className="hidden md:flex items-center space-x-4">
           <button
@@ -72,6 +75,9 @@ const Navbar: React.FC = () => {
           <Link to="/solution" className="text-gray-700 hover:text-green-600">
             Our Solution
           </Link>
+          {/* <Link to="/demo" className="text-gray-700 hover:text-green-600">
+            Product Demo
+          </Link> */}
           <button
             className="bg-green-600 p-3 text-sm text-white font-bold rounded-lg cursor-pointer transition duration-300 hover:bg-green-700 w-[50%] text-center"
             onClick={() => navigate('/auth/farmer')}

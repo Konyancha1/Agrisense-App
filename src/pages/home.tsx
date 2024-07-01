@@ -46,7 +46,7 @@ const HomePage: React.FC = () => {
 
       <div className="flex flex-col items-center bg-gray-100 p-10 mb-20">
         <img src={icon} alt="Icon" className="h-12 mt-6" />
-        <div className="font-bold text-xl font-sans text-center mt-4">We are Coffee Intelligence.</div>
+        <div className="font-bold text-xl md:text-2xl font-sans text-center mt-4">We are Coffee Intelligence.</div>
         <div className="flex flex-col lg:flex-row items-center justify-center mt-10 mb-10 w-full">
           <div className="grid grid-cols-1 md:flex md:flex-col md:mx-0 mx-auto items-center lg:items-start w-auto space-y-4 lg:mr-10">
             <Card title="Early and accurate detection" text="Reduces coffee yield and quality losses by 70% in increase by 45% each season," />
@@ -56,7 +56,7 @@ const HomePage: React.FC = () => {
             <Card title="Weather Alert" text="Beat the unpredictable weather patterns that can lead to significant crop losses." />
             <Card title="Reduce Chemical Use" text="Precise disease management reducing the need for chemical interventions and improve soil and plant health." />
           </div>
-          <img src={image1} alt="Image" className="h-64 md:h-84 mt-10 lg:mt-0" />
+          <img src={image1} alt="Image" className="h-64 md:h-96 mt-10 lg:mt-0" />
         </div>
       </div>
 
@@ -76,8 +76,8 @@ const HomePage: React.FC = () => {
         {/* Large Screens */}
         <div className="hidden md:flex md:flex-col items-center w-full">
           <div className="flex flex-col md:flex-row items-center justify-center w-full">
-            <div className="flex flex-col items-center lg:items-end lg:w-1/3 space-y-4 mb-4 lg:mb-0">
-              <ImageCard title="" text="Early identification of coffee diseases with specific recommendations for intervention." icon={icon} />
+            <div className="flex flex-col items-end lg:w-1/3 space-y-4">
+              <ImageCard title="" text="Early identification of coffee diseases." icon={icon} />
               <ImageCard title="" text="Insights to reduce operational costs." icon={icon} />
               <ImageCard title="" text="Critical insights for sustainable farming" icon={icon} />
             </div>
@@ -93,7 +93,7 @@ const HomePage: React.FC = () => {
         {/* Smaller screens */}
         <div className='items-center w-full md:hidden'>
           <div className='grid grid-cols-2'>
-            <ImageCard title="" text="Early identification of coffee diseases with specific recommendations for intervention." icon={icon} />
+            <ImageCard title="" text="Early identification of coffee diseases." icon={icon} />
             <ImageCard title="" text="Insights to reduce operational costs." icon={icon} />
             <ImageCard title="" text="Critical insights for sustainable farming" icon={icon} />
             <ImageCard title="" text="Data-driven recommendations for efficient use of water, fertilizers, and other inputs." icon={icon} />
