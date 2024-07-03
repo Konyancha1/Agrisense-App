@@ -7,7 +7,7 @@ import SolutionsPage from './pages/solution';
 import Footer from './components/common/footer';
 import FarmerPage from './pages/farmer';
 import CooperativePage from './pages/cooperative';
-// import DemoPage from './pages/demo';
+import DemoPage from './pages/demo';
 
 const AppContent: React.FC = () => {
   const location = useLocation();
@@ -21,7 +21,7 @@ const AppContent: React.FC = () => {
         <Route path="/about" Component={AboutPage} />
         <Route path="/solution" Component={SolutionsPage} />
         <Route path='/auth/farmer' Component={FarmerPage}/>
-        {/* <Route path='/demo' Component={DemoPage} /> */}
+        <Route path='/demo' Component={DemoPage} />
         <Route path='/auth/cooperative' Component={CooperativePage}/>
       </Routes>
       {!isAuthRoute && <Footer />}
